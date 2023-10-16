@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form id="todo-form" class="flex flex-col p-20 gap-4">
+        <div class="grid grid-cols-1 gap-2">
+            <label for="full_name">To do item</label>
+            <input class="border border-purple-500 p-2" type="text" name="todo" placeholder="Enter todo text" />
+        </div>
+
+        <div class="text-center">
+            <button class="bg-blue-600 text-white px-5 py-2 rounded" type="submit">
+                Add to list
+            </button>
+        </div>
+    </form>
+
+    <ul id="list-items">
+
+    </ul>
+
+    <form id="counter" class="flex flex-col p-20 gap-4">
+        <div class="grid grid-cols-1 gap-2">
+            <label for="number">Number</label>
+            <input class="border border-purple-500 p-2" type="text" name="counter" placeholder="Enter number" />
+        </div>
+
+        <div class="text-center">
+            <button class="bg-blue-600 text-white px-5 py-2 rounded" type="submit">
+                Add or subtract a number
+            </button>
+        </div>
+    </form>
+
+    <ul id="list-numbers">
+
+    </ul>
+
+
+
+    <script src="script2.js"></script>
+
+</body>
+</html>
